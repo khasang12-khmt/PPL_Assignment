@@ -1,0 +1,7 @@
+main: function void() {
+    while (z / 5) {
+        i = i + 1;
+        continue;
+        iyz = ppl(hk222);
+    }
+}

@@ -1,0 +1,7 @@
+Program([
+	VarDecl(dsrwewre, IntegerType, IntegerLit(213214213213))
+	VarDecl(fdssfd, IntegerType, Id(dffdsb))
+	FuncDecl(ewqrew, VoidType, [], None, BlockStmt([]))
+	VarDecl(dsffwer, BooleanType, IntegerLit(324324))
+	FuncDecl(ewrerwerw, AutoType, [InheritOutParam(asadf, StringType)], None, BlockStmt([]))
+])

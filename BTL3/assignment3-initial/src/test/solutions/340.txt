@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(quamonPPL, AutoType, [], None, BlockStmt([IfStmt(BinExpr(==, IntegerLit(1), IntegerLit(1)), ReturnStmt(StringLit(Rot mon)), CallStmt(print, StringLit(Cung la rot mon)))]))
+])

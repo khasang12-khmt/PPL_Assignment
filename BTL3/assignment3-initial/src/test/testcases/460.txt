@@ -1,0 +1,13 @@
+
+        foo: function auto(){
+            return 0;
+        }
+        main: function void(){
+            i: integer;
+            f: float;
+            f = f+i;
+            foo(); // foo: auto (general) -> int (return - not auto anymore) != void (CallStmt) => INVALID !!
+            f = f+foo(i);
+            i = i+f;
+        }
+            

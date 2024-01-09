@@ -1,0 +1,3 @@
+main: function void() {
+    do {call(22,11,33); continue; return 1;} while (aa);
+}

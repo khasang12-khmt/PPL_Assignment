@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([WhileStmt(BinExpr(<, Id(i), IntegerLit(10)), BlockStmt([]))]))
+])

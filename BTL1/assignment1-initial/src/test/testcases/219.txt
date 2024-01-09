@@ -1,0 +1,5 @@
+
+            a: array [5.2] of float;
+            printInteger(a[0]);
+            printInteger(a[2]);
+        

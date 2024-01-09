@@ -1,0 +1,5 @@
+aaaa3324, stringgg: float = 43432234432, {123,123+1123,52.432};
+aaa32132121312: function auto () {
+    aaaa2432, treter, were: string = "321321213", 12321, 12312321_2333;
+    dsfff = f24324432;
+}

@@ -1,0 +1,3 @@
+Program([
+	VarDecl(pi, FloatType, FloatLit(3.14))
+])

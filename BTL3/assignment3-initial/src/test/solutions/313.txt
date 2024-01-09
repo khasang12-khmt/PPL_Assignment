@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(xyz, AutoType, [], None, BlockStmt([]))
+])

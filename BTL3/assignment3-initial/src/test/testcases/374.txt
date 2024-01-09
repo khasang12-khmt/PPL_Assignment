@@ -1,0 +1,18 @@
+main: function void() {
+    while (a) {
+        do {
+            a = a + 1;
+        }
+        while (i + 1);
+        return a;
+    }
+    for (a = 2, tg + wer, df + a) {
+        for (j = 0, j < 5, j+1) {
+            if (j == 2) continue;
+            else if (j == 4) return j;
+        }
+        return "abc";
+    }
+    t = f + z;
+    print(t);
+}

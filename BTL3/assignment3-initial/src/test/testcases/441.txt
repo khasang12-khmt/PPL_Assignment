@@ -1,0 +1,12 @@
+
+        main: function void(){
+            a: integer;
+            b: integer;
+            c: boolean;
+            d: boolean;
+            e: float;
+            c = b > e;
+            c = e <= b;
+            d = b == e; // invalid: b==e. UPDATE: valid
+        }
+            

@@ -1,0 +1,3 @@
+aaa123: function string(out trrtet: string) inherit trrtetre {
+    return fgwedewrrew;
+}

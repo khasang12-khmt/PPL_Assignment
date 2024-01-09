@@ -1,0 +1,7 @@
+
+        main: function void (){
+            hello(a);
+            good_boy(b,e);
+            are_you_ok(c,d,f);
+        }
+        

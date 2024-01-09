@@ -1,0 +1,4 @@
+Program([
+	VarDecl(rrewrerw, IntegerType, BinExpr(+, IntegerLit(432432234), IntegerLit(234324342342)))
+	VarDecl(aaaaaa, FloatType, BinExpr(::, BinExpr(*, BinExpr(/, IntegerLit(32442343), IntegerLit(23423443)), IntegerLit(234324234)), IntegerLit(1213)))
+])

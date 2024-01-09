@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(wfdwfupwe_2g3o, VoidType, [], None, BlockStmt([VarDecl(eqrspsf, ArrayType([2], IntegerType), ArrayLit([IntegerLit(1123), IntegerLit(123214), IntegerLit(13232132132)])), VarDecl(whfe, ArrayType([2], IntegerType), IntegerLit(42143)), VarDecl(dsdwp, ArrayType([2], IntegerType), StringLit(SDhoreht)), ReturnStmt(IntegerLit(13124)), DoWhileStmt(BinExpr(+, IntegerLit(1), IntegerLit(2)), BlockStmt([AssignStmt(Id(e3prwf), BinExpr(+, BinExpr(/, Id(ewp1), Id(dfofhdq)), BinExpr(*, Id(fdjspfew), Id(hdshfdwf)))), ReturnStmt(), ReturnStmt(), BreakStmt(), ContinueStmt(), VarDecl(wqp, StringType, IntegerLit(43243)), VarDecl(aa, StringType, IntegerLit(324324))])), AssignStmt(Id(qewqwe), BinExpr(-, BinExpr(+, Id(csfwwef), BinExpr(*, BinExpr(/, Id(dfjsfwe), Id(eepfpm)), Id(hofdsfho))), BinExpr(*, Id(fdhsfd), BinExpr(+, IntegerLit(132), Id(dsf))))), AssignStmt(Id(aaaf_sfew), IntegerLit(3243240)), ReturnStmt(BinExpr(-, BinExpr(-, IntegerLit(432), IntegerLit(7432)), IntegerLit(432403)))]))
+	VarDecl(dsfsdffd, IntegerType, IntegerLit(5))
+	FuncDecl(dsfweewree, VoidType, [Param(a, StringType)], None, BlockStmt([ReturnStmt()]))
+])

@@ -1,0 +1,6 @@
+quote_list: function array [3] of string() {
+    if (is_reply) return {"Comment nang ne qua, ban thua do a`"
+            , "Em dien hoi canh sat Los Angeles nhe"
+            , "Khoan da chung ta can phai check VAR"};
+    else return "Ban se bi block";
+}

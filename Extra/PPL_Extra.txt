@@ -1,0 +1,24 @@
+toán hạng trên reg, tốc độ truy xuất nhanh
++ higher perf
+- limitation on regs -> quản lý tài nguyên
+
+register allocation
+quan hệ biến - thanh ghi/bộ nhớ:
+ chọn thanh ghi: 
+	nếu có giá trị trong mem -> xài thoải mái
+	nếu ko có trong mem -> lưu trong mem -> xài
+
+chỉ áp dụng tới thanh ghi:
+max 10 thanh ghi, sl biến ngoài limit -> tìm giải thuật chọn thanh ghi
+
+BTL1: chỉ cần hiểu code structure
+BTL2: tổ chức lại (gồm các lớp nào, kiến trúc ntn, sinh mã ra sao)
++ giải thuật cấp phát gán thanh ghi và quản lý biến và bộ nhớ -> viết report trình bày giải thuật là của mình
++ mở rộng code cho khai báo biến, phát biểu gán
++ test: số biến > số thanh ghi
+
+- quản lý thanh ghi: 
+	+ (intra) tệ nhất là trong ctr con, giữ reg cho đến khi k còn giữ dc. k chấp nhận stmt/expr label
+	+ (inter) giữ reg giữa các block, scope
+
+sách: xem phần Symbol (có phần giải thuật) + Reg Alloc

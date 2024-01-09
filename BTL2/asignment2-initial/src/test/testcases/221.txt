@@ -1,0 +1,11 @@
+
+            a: integer = 5;
+            b: float = 7.3;
+            c: string = "cool";
+            d: boolean = true;
+            e: auto = 7e6;
+            e: string = getString();
+            g: string = c;
+            h: string = g::c;
+            i: boolean= d && true;
+        

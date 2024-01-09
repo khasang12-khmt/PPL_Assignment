@@ -1,0 +1,5 @@
+
+            main: function void () {
+                if_call((if (a>5) {}),"007")
+            }
+        

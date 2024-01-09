@@ -1,0 +1,7 @@
+Program([
+	VarDecl(sdfdsf, IntegerType, IntegerLit(2))
+	VarDecl(sdfsd, IntegerType, IntegerLit(3))
+	VarDecl(dsfsdfsfd, IntegerType, IntegerLit(4))
+	VarDecl(reerwrewr, StringType, IntegerLit(324324432))
+	FuncDecl(ffddsfdssdsdfdsf, VoidType, [], None, BlockStmt([]))
+])

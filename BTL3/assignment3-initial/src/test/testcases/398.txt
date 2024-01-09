@@ -1,0 +1,14 @@
+ffwer: function auto(t: string) {
+    do {return 132213;} while (dsfdw / dfsfdsl + (sdfds - fdbkfds));
+    rewdsjfewp = dfshdfsfds + _dfshdfs_sdfhdfssdf;
+    fdfdhwf(sdfdsf,{123,213,13,aaa,weew});
+    for (i = 0, i > 5, i - 1) {
+        for (i = 0, i > 5, i - 1) {
+            for (i = 0, i > 5, i - 1) {
+                for (i = 0, i > 5, i - 1) {
+                    return;
+                }
+            }
+        }
+    }
+}

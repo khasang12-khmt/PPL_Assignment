@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(fewrewrewrewrewr, VoidType, [], None, BlockStmt([AssignStmt(Id(a), BinExpr(*, Id(ewwerewr), IntegerLit(11))), ReturnStmt(), ReturnStmt(), ReturnStmt(), AssignStmt(Id(sdfdfdww), BinExpr(+, Id(fgdshsfdsdffsd), Id(fdsfsdsdf))), VarDecl(fssdfdsf, StringType, IntegerLit(1)), VarDecl(rewrerewwer, StringType, IntegerLit(2))]))
+])

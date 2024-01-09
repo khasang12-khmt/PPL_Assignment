@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(abcxyz, StringType, [Param(fsdffsdfsd, StringType)], None, BlockStmt([ReturnStmt(), ReturnStmt(), BreakStmt(), ContinueStmt()]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(abc, StringType, [InheritOutParam(sdd, StringType)], a123, BlockStmt([AssignStmt(Id(dsfd), BinExpr(+, Id(fsdferwer), BinExpr(/, Id(fsdlhfep), Id(fdsofdsf)))), ForStmt(AssignStmt(Id(idwewr), IntegerLit(1)), Id(fdsfewpfew), Id(fdspwer), BlockStmt([BlockStmt([AssignStmt(Id(ohohohohohohohohoho), IntegerLit(111111))])])), VarDecl(rewrpwer, StringType, StringLit(32432434)), VarDecl(sdfsfdsfd, StringType, ArrayLit([IntegerLit(13232), ArrayLit([IntegerLit(2133), IntegerLit(21321)]), ArrayLit([Id(abdfgfgf)])]))]))
+])

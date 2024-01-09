@@ -1,0 +1,4 @@
+aaa: boolean = {123213,213213};
+fdewew, strings: string = {2313,213123}, 123213;
+aaaa, aaaaa, bbbb: string = 111, 23112, 32_42_34.1321;
+fdsfsdfsdfds, rewwer: string = 24234, 32432432.213321;

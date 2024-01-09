@@ -1,0 +1,1 @@
+roll_at_level_8: function boolean(champ: string, rate: array [5] of float) {}

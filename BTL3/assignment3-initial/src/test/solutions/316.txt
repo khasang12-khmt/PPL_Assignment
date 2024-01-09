@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(BFS, VoidType, [InheritParam(node, StringType)], None, BlockStmt([]))
+])

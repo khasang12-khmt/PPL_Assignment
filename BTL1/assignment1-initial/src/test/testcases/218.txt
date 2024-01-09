@@ -1,0 +1,6 @@
+
+            a: array [5_123,0] of integer;
+            printInteger(a[0,1]);
+            printInteger(a[3,0]);
+            printInteger(a[3,1]);
+        

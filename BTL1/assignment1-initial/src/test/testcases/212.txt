@@ -1,0 +1,8 @@
+
+            a: integer = 1_234e-12;
+            b: integer = -5_678.5e+2;
+            writeFloat(a+b);
+            writeFloat(a-b);
+            writeFloat(a*b);
+            writeFloat(a/b);
+        

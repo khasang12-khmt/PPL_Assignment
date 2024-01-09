@@ -1,0 +1,1 @@
+Type mismatch in Variable Declaration: FloatLit(2.3)

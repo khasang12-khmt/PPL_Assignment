@@ -1,0 +1,11 @@
+
+            a: integer = 1_234;
+            b: integer = -5_678;
+            main: function void (){
+                printInteger(a+b);
+                printInteger(a-b);
+                printInteger(a*b);
+                printInteger(a/b);
+                printInteger(a%b);
+            }
+        

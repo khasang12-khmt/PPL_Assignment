@@ -1,0 +1,4 @@
+sdffwfwef: function boolean(out dfwew: string, fddsf: boolean) {
+    ewrewewrwerrew = dsffsd + fwqrdsf;
+    return;
+}

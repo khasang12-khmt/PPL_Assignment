@@ -1,0 +1,3 @@
+sdfddsfd: function void() {
+    return;
+}

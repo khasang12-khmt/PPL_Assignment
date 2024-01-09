@@ -1,0 +1,9 @@
+
+            empty_function: function void () {
+                printInteger(5);
+            }
+            return_function: function integer () {
+                return 5;
+            }
+            
+        

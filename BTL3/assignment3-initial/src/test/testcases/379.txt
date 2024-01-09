@@ -1,0 +1,13 @@
+main: function void() {
+    dsffsd: string = sdfdfsfsd;
+    wofewp = dflfd + dfskhdos && 312973 / hdsofd :: ofdfdf;
+    sdfdsdfssdf = dsflhfdlhfdshfld + sfdslfdkhlsdf - fdskhiwqds;
+    continue; {
+        ewrwhro[0,1,2] = fdshlfshdlfds + 123465464 / 546461;
+        sdfhds: boolean = "sdhfdsfd";
+        fdsfds = 165461;
+        return fdsjfwp;
+        return 4213165;
+        return {1,2,3,4};
+    }
+}

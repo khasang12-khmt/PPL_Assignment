@@ -1,0 +1,7 @@
+
+            a1,a2,a3: integer = a[5],6,7;
+            b1,b2,b3: float = 7.3,3.5e7,0.9;
+            c1,c2: string = "cool","cool.test";
+            d1,d2: boolean = true,false;
+            e1,e2: auto = 7e6,"boyy";
+        

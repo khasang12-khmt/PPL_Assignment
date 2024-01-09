@@ -1,0 +1,6 @@
+
+            main: function void () {
+                getString(a)::getString(b);
+                getInt(1)+getInt(2)*getInt(3);
+            }
+        

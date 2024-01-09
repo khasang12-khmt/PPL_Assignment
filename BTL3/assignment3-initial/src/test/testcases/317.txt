@@ -1,0 +1,1 @@
+Genetic_al: function void(params: string) inherit algorithm {}

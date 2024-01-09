@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<, Id(i), FuncCall(getMax, [])), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([WhileStmt(BooleanLit(True), BlockStmt([CallStmt(print, StringLit(kaka)), DoWhileStmt(BooleanLit(False), BlockStmt([CallStmt(print, StringLit(kuku))]))]))]))]))
+])

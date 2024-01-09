@@ -1,0 +1,5 @@
+main: function void(){
+                a = .1e23;
+                a = .1e-23;
+                a = -.1e23;
+            }

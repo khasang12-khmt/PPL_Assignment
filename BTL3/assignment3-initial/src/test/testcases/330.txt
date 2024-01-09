@@ -1,0 +1,4 @@
+main: function void() {
+    str[0] = "111" + "222";
+    str1[1,2] = str::"333";
+}

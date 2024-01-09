@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(mainnn, AutoType, [InheritParam(aaaaaaa, StringType)], None, BlockStmt([ReturnStmt()]))
+])

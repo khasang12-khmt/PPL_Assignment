@@ -1,0 +1,10 @@
+
+            empty_function: function void (a:integer, b:integer) {
+                printInteger(a+b);
+                return ;
+            }
+            return_function: function integer (a:integer, b:integer) {
+                return a+b;
+            }
+            
+        

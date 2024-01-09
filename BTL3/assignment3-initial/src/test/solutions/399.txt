@@ -1,0 +1,3 @@
+Program([
+	VarDecl(rewrweuerw, StringType, IntegerLit(5))
+])

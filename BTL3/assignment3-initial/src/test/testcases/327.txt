@@ -1,0 +1,5 @@
+main: function void() {
+    a = true;
+    b = false;
+    flag = a && b || (a && b);
+}

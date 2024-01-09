@@ -1,0 +1,5 @@
+
+            isOdd: function boolean(x,y:integer){
+                return x%y!=0;
+            }
+        

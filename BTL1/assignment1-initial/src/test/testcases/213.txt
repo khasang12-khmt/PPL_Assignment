@@ -1,0 +1,10 @@
+
+            a: integer = 5;
+            b: float = 5.1;
+            printBoolean(a>b);
+            printBoolean(a>=b);
+            printBoolean(a<b);
+            printBoolean(a<=b);
+            printBoolean(a!=b);
+            printBoolean(a==b);
+        

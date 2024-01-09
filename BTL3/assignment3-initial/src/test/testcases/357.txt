@@ -1,0 +1,5 @@
+main: function void() {
+    while (j == 0) {
+        call(0.5,2,"str",{1,2,3});
+    }
+}

@@ -1,0 +1,6 @@
+
+        main: function void(){
+            a: array[1,2,3] of integer;
+            x: integer = a[1];
+        }
+            

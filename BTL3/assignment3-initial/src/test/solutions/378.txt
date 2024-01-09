@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(ewr, StringType, StringLit(343dsfsd)), VarDecl(fdsfsdfds, FloatType, IntegerLit(12332)), VarDecl(sdfsdffdosv, FloatType, StringLit(strings)), VarDecl(rtrwuepa, StringType, IntegerLit(123321)), VarDecl(odsfodew, StringType, IntegerLit(12321)), VarDecl(sohqodls, StringType, ArrayLit([StringLit(Stroihsd), Id(fdsfds), Id(dfsfsd)])), BreakStmt(), BlockStmt([IfStmt(BinExpr(>, BinExpr(+, Id(dsfhfdsl), Id(fsdkfdsfdcv)), Id(dsffdfdsfd)), BlockStmt([ReturnStmt(Id(sdflfhewlfh))]), BlockStmt([ReturnStmt(Id(sdfoqrpsdp))]))])]))
+])

@@ -1,0 +1,13 @@
+
+            a: integer = 5;
+            b: float = 5.1;
+            
+            main: function void (){
+                printBoolean(a>b);
+                printBoolean(a>=b);
+                printBoolean(a<b);
+                printBoolean(a<=b);
+                printBoolean(a!=b);
+                printBoolean(a==b);
+            }
+        

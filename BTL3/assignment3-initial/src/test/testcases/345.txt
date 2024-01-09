@@ -1,0 +1,3 @@
+main: function void() {
+    for (i = z, i < 5, j >= 1) a = func(1*2);
+}

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(findtheroad, ArrayType([10], StringType), [Param(roadmap, StringType)], ggmap, BlockStmt([]))
+])

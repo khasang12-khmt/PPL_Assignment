@@ -1,0 +1,14 @@
+
+        inc : function auto (out n : integer, a:float) inherit foo{
+            preventDefault();
+            {
+                n: float=foo(2);
+                m: boolean = true;
+            }
+            return foo(2);
+        } 
+        foo : function auto (inherit m: float){}
+        main: function void (){
+            hihi : float = foo(foo(2));
+        }
+        

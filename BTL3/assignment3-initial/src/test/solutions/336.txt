@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(truonganhngoc, StringType, [Param(cmt, StringType)], None, BlockStmt([IfStmt(BinExpr(==, Id(cmt), StringLit(Tin chuan chua anh)), ReturnStmt(StringLit(Chuan em nhe)), ReturnStmt(StringLit(Admin Lan blog ban nay cho anh)))]))
+])

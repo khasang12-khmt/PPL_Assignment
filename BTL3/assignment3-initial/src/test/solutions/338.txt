@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(quote_list, ArrayType([3], StringType), [], None, BlockStmt([IfStmt(Id(is_reply), ReturnStmt(ArrayLit([StringLit(Comment nang ne qua, ban thua do a`), StringLit(Em dien hoi canh sat Los Angeles nhe), StringLit(Khoan da chung ta can phai check VAR)])), ReturnStmt(StringLit(Ban se bi block)))]))
+])

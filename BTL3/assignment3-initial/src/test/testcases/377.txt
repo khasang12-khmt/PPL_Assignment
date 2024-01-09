@@ -1,0 +1,11 @@
+main: function void() {
+    { aa = 1; } {
+        sfaldfsdf = sdfhdfsfds + sdlffdhs - sdfksdfsdf;
+        sjdffsd: integer = 5232;
+        if (asdfdfs < ttt + fds) {
+            do {i = i+1;} while (i+1);
+            return fdfds+fdfdsdf[0,-1] + wssdf[9];
+        }
+        return fdsfd[0,2,3,4] * xcvs[0,0] / dfsdf[0,1];
+    }
+}

@@ -1,0 +1,5 @@
+Program([
+	VarDecl(aaaa3324, FloatType, IntegerLit(43432234432))
+	VarDecl(stringgg, FloatType, ArrayLit([IntegerLit(123), BinExpr(+, IntegerLit(123), IntegerLit(1123)), FloatLit(52.432)]))
+	FuncDecl(aaa32132121312, AutoType, [], None, BlockStmt([VarDecl(aaaa2432, StringType, StringLit(321321213)), VarDecl(treter, StringType, IntegerLit(12321)), VarDecl(were, StringType, IntegerLit(123123212333)), AssignStmt(Id(dsfff), Id(f24324432))]))
+])

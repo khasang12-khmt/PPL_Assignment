@@ -1,0 +1,8 @@
+foo: function void () {
+            if(x > 0)
+                if(y > 0) {
+                    printBoolean(x * y > 0);
+                }
+                else if (z > 0)
+                    printBoolean(x * z > 0);
+        }

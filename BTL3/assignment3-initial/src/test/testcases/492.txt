@@ -1,0 +1,6 @@
+
+        x: function void(){}
+        main: function void(){
+            super();
+        }
+            

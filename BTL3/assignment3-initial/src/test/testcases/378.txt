@@ -1,0 +1,13 @@
+main: function void() {
+    ewr: string = "343dsfsd";
+    fdsfsdfds, sdfsdffdosv: float = 12332, "strings";
+    rtrwuepa, odsfodew, sohqodls: string = 123321, 12321, {"Stroihsd", fdsfds, dfsfsd};
+    break; {
+        if (dsfhfdsl + fsdkfdsfdcv > dsffdfdsfd) {
+            return sdflfhewlfh;
+        }
+        else {
+            return sdfoqrpsdp;
+        }
+    }
+}

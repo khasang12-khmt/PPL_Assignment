@@ -1,0 +1,9 @@
+sdfdsfdsf: function string() {
+    a = dfsfwer / 34324 ;
+    wqeqe = 1234 * ab + fdsfd2 ;
+    {
+        return;
+        return;
+    }
+    if (a == 2) {} else {}
+}

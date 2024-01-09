@@ -1,0 +1,9 @@
+main: function void() {
+    sdffds(sadlfsd, sdfljfsdh, dsfhjsfda);
+    y = a * b[1,2] + fdsfsd / sdffds;
+    z[0,2,3] = sdflk(sfdsjsdl, wqheol);
+    do {
+        adfsfsd = adsffsd - 12123321 + {sdfd, fsdfdsdfs};
+        continue;
+    } while (safsaf + dslhfsd - dfshkfd);
+}

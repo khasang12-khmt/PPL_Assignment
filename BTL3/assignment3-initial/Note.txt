@@ -1,0 +1,89 @@
+-------------UPDATE----------------
+
+19/04
+1. Đối với lời gọi hàm super thì mình sẽ quăng lỗi TypeMisMatchInExpression(<error arg>) có thể rỗng.
+
+👌 3. Đối với ràng buộc kiểu thì mình sẽ cho phép chuyển kiểu ngầm định giữa float và int. Ví dụ foo(1,2) có thể sử dụng cho foo(a: int, b: float)
+
+👌 4.  Khi lấy prototype ta không quăng lỗi mà chỉ là lấy ra tên và danh sách đối số.
+
+👌 5. Trường hợp auto được init bằng một auto khác là được cho phép và chúng ta không có lỗi type cannot be inferred  để bắt nên ta bỏ qua trường hợp này trong testcase, tức là nếu có thì không lỗi.
+
+👌 6.  Về việc đi qua thân hàm khi kế như thế nào thì chúng ta sẽ làm như sau: 
+
+    + Khi cha được khai báo trước ta sẽ là như bình thường đó là kiểm tra param của hàm cha như bình thường(ở đây redeclare hay undecl đều bắt kể cả tham số). 
+
+    + Nếu hàm cha khai báo sau thì chúng ta kiểm tra sự tồn tại của hàm cha và kiểu khi ta gọi hàm super(). Nếu trường hợp hàm cha có 2 tham số cùng tên và cả 2 cùng inhert thì ta quăng lỗi redeclare ở đây.
+
+    + Trường hợp khác thì ta làm như bình thường
+
+👌 7. Khi khai báo cùng tên nhưng khác kiểu trong 1 scope ta sẽ áp dụng những điều mô tả trong mục 3.1 assignment 3. Là second kind nha.
+
+👌 8. Chuyển đổi ngầm định giữa int và float là cho phép trong toàn bài tập lớn lần này.
+
+👌 9. Các operand's được mô tả float/int thì cả 2 vế đều có thể là 1 trong 2.
+
+10. Về vấn đề return ta sẽ có 2 TH như sau:
+
+    👌 + Return không nằm trong stmt nào cả. Thì ta chỉ xét kiểu với lần return đầu tiên. Các lần return sau đó ta không bàn đến kiểu nữa. Nhưng ta cũng phải quan tâm đến kiểu của các câu lệnh đằng sau nó.
+
+    👌 + Return nằm trong 1 stmt: ví dụ như nằm trong if và nằm ở ngoài. Thì ta sẽ buộc phải xét kiểu của 2 lần này. Có nghĩa là em nếu nó nằm trong stmt bắt buộc phải kiểm tra kiểu. Còn nếu nằm ngoài thì ta quan tâm lần return đầu tiên mà không quan tâm đến các return sau nó nữa. 
+    
+Xem lại: https://e-learning.hcmut.edu.vn/mod/forum/discuss.php?d=9192
+
+---------------------------------
+08:36 9/4
+- No AUTO & coercion for params 👌
+- TypeMismatchInVarDecl 👌
+- No need to check for type compatibility in RETURN ??
+- Super: type compatibility (same + coercion)
+- Array:
+    + ArrayCell points to unbreakable subscript 👌
+    + ArrayLit must have atomic types 👌
+    + VarDecl inference for ArrayLit 👌
+
+
+Meetings:
+- Có auto trong param 👌
+- ham bth có super/pre -> lỗi 👌
+- tên biến = hàm -> check VarDecl 👌
+- vòng đầu tiên k check lỗi 👌
+- trong for-while undecl nếu init var k tìm dc 👌
+- No Entry Point xét cuối cùng 👌
+- suy diễn cho arraycell, arraystmt chứa auto 👌
+- array int <-> array float 👌
+
+----------------------------------------------------------------
+
+19/04
+1. Đối với lời gọi hàm super thì mình sẽ quăng lỗi TypeMisMatchInExpression(<error arg>) có thể rỗng.
+
+2. Đối với lời gọi hàm bình thường thì mình sử dụng quy tắc Mục 3.4 ý 3 assignment 3.
+
+3. Đối với ràng buộc kiểu thì mình sẽ cho phép chuyển kiểu ngầm định giữa float và int. Ví dụ foo(1,2) có thể sử dụng cho foo(a: int, b: float)
+
+4.  Khi lấy prototype ta không quăng lỗi mà chỉ là lấy ra tên và danh sách đối số.
+
+5. Trường hợp auto được init bằng một auto khác là được cho phép và chúng ta không có lỗi type cannot be inferred  để bắt nên ta bỏ qua trường hợp này trong testcase, tức là nếu có thì không lỗi.
+
+6.  Về việc đi qua thân hàm khi kế như thế nào thì chúng ta sẽ làm như sau: 
+
++ Khi cha được khai báo trước ta sẽ là như bình thường đó là kiểm tra param của hàm cha như bình thường(ở đây redeclare hay undecl đều bắt kể cả tham số). 
+
++ Nếu hàm cha khai báo sau thì chúng ta kiểm tra sự tồn tại của hàm cha và kiểu khi ta gọi hàm super(). Nếu trường hợp hàm cha có 2 tham số cùng tên và cả 2 cùng inhert thì ta quăng lỗi redeclare ở đây.
+
++ Trường hợp khác thì ta làm như bình thường
+
+7. Khi khai báo cùng tên nhưng khác kiểu trong 1 scope ta sẽ áp dụng những điều mô tả trong mục 3.1 assignment 3. Là second kind nha.
+
+8. Chuyển đổi ngầm định giữa int và float là cho phép trong toàn bài tập lớn lần này.
+
+9. Các operand's được mô tả float/int thì cả 2 vế đều có thể là 1 trong 2.
+
+10. Về vấn đề return ta sẽ có 2 TH như sau:
+
+    + Return không nằm trong stmt nào cả. Thì ta chỉ xét kiểu với lần return đầu tiên. Các lần return sau đó ta không bàn đến kiểu nữa. Nhưng ta cũng phải quan tâm đến kiểu của các câu lệnh đằng sau nó.
+
+    + Return nằm trong 1 stmt: ví dụ như nằm trong if và nằm ở ngoài. Thì ta sẽ buộc phải xét kiểu của 2 lần này. Có nghĩa là em nếu nó nằm trong stmt bắt buộc phải kiểm tra kiểu. Còn nếu nằm ngoài thì ta quan tâm lần return đầu tiên mà không quan tâm đến các return sau nó nữa. 
+
+

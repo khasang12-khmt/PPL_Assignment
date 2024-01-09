@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(NicoloZaniolo, StringType, [Param(quote, StringType)], None, BlockStmt([IfStmt(Id(dribble), ReturnStmt(StringLit(Chuyen di dung sut)), IfStmt(Id(shoot), ReturnStmt(StringLit(Anh khong nghe toi)), IfStmt(Id(no_goal), ReturnStmt(StringLit(Anh khong an mung)))))]))
+])

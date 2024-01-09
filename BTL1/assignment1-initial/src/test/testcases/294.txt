@@ -1,0 +1,5 @@
+
+            main: function void () {
+                printInt(a[1][2]); // parser can't catch this error?
+            }
+        

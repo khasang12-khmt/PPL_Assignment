@@ -1,0 +1,3 @@
+mainnn: function auto(inherit aaaaaaa: string) {
+    return;
+}

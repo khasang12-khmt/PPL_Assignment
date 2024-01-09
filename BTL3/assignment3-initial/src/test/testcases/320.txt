@@ -1,0 +1,1 @@
+findtheroad: function array [10] of string(roadmap: string) inherit ggmap {}

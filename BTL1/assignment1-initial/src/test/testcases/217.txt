@@ -1,0 +1,8 @@
+
+            void_func: function void () {
+                return;
+            }
+            auto_func: function auto (a:integer) {
+                return a*a;
+            }
+        

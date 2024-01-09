@@ -1,0 +1,8 @@
+
+        main: function void(){
+            b: boolean;
+            i: integer;
+            v: void;
+            v = v;
+        }
+            

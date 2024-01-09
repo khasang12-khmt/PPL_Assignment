@@ -1,0 +1,11 @@
+
+            a: boolean = true;
+            b: boolean = false;
+            main: function void (){
+                printBoolean(!a);
+                printBoolean(a&&b);
+                printBoolean(a||b);
+                printBoolean(a==b);
+                printBoolean(a!=b);
+            }
+        

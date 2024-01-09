@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(Genetic_al, VoidType, [Param(params, StringType)], algorithm, BlockStmt([]))
+])

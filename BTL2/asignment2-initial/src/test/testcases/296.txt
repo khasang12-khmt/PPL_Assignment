@@ -1,0 +1,7 @@
+
+            main: function void () {
+                printInt(a[1*2+3,2+2/1]);
+                printInt(a[1||2]);
+                a: array ["a"] of integer;
+            }
+        

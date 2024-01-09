@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([DoWhileStmt(Id(z), BlockStmt([BlockStmt([BlockStmt([BlockStmt([ReturnStmt(IntegerLit(1))]), ReturnStmt(IntegerLit(2))]), ReturnStmt(IntegerLit(3))]), ReturnStmt(IntegerLit(4))]))]))
+])

@@ -1,0 +1,6 @@
+main: function void() {
+    pi: float = 3.14;
+    n: float;
+    n = 5.0;
+    S = pi * square(n);
+}

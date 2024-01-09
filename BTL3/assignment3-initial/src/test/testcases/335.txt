@@ -1,0 +1,7 @@
+nenkiembokhong: function string() {
+    if (random(seed) >= 0.5) return "nen";
+    else {
+        print("Random lai di");
+        return "khong";
+    }
+}

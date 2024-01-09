@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(y), BinExpr(::, BinExpr(&&, BinExpr(+, Id(a), Id(z)), BinExpr(||, Id(t), Id(y))), BinExpr(%, BinExpr(/, Id(z), Id(r)), Id(iopd)))), ForStmt(AssignStmt(Id(j), Id(z)), BinExpr(<, Id(t), Id(n)), BinExpr(/, Id(io), IntegerLit(5)), BreakStmt()), CallStmt(foo, IntegerLit(123)), CallStmt(call, Id(xsdf), Id(ysdadfs), Id(zdsasfd))]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(aaa123, StringType, [OutParam(trrtet, StringType)], trrtetre, BlockStmt([ReturnStmt(Id(fgwedewrrew))]))
+])

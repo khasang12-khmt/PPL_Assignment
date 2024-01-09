@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(how_to_pass_SE, StringType, [OutParam(rate, FloatType)], CSE, BlockStmt([]))
+])

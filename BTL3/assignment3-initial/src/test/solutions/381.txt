@@ -1,0 +1,12 @@
+Program([
+	VarDecl(dsfhfdslfds, IntegerType, BooleanLit(False))
+	VarDecl(fsdffsdsdf, FloatType, Id(fdsfdsfds))
+	VarDecl(sfw, StringType, ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), IntegerLit(4)]))
+	VarDecl(sdfhsdfo, StringType, Id(sdhfowe))
+	VarDecl(dsfodsfhw, StringType, StringLit(sfsdhow))
+	FuncDecl(fhslfdsf, ArrayType([1, 1, 1, 1, 1, 1, 1, 1, 1], StringType), [InheritOutParam(dshfsdldsffd, FloatType)], main, BlockStmt([ReturnStmt(), ReturnStmt(), ReturnStmt(), ReturnStmt(), AssignStmt(Id(dfdsfds), BinExpr(+, Id(fdslfdsf), Id(dsjkfkds))), AssignStmt(Id(eqwr), BinExpr(+, ArrayCell(fdshlfw, [IntegerLit(0), IntegerLit(1), Id(fdsfdsfds)]), Id(fdslfdldfsjlfd)))]))
+	VarDecl(fsdhdfsdf, IntegerType, IntegerLit(432))
+	VarDecl(sdfwe, IntegerType, IntegerLit(324432))
+	VarDecl(fwewro, IntegerType, StringLit(adsfsfad))
+	FuncDecl(dfsfsd, StringType, [], None, BlockStmt([AssignStmt(ArrayCell(sdfdsfds, [IntegerLit(1), IntegerLit(2), BinExpr(+, IntegerLit(2), IntegerLit(3)), BinExpr(+, BinExpr(+, IntegerLit(223), IntegerLit(22)), Id(dsafr))]), BinExpr(+, Id(dfshfdsl), ArrayCell(fdshlfdsf, [IntegerLit(0), IntegerLit(1), ArrayLit([FloatLit(2.4)])]))), CallStmt(call, Id(dsfhfdsldsf), Id(rewro), StringLit(123213))]))
+])

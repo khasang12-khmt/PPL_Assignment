@@ -1,0 +1,6 @@
+main: function void() {
+    while (i < 5) {
+        i = i + 1;
+        print("Its fine");
+    }
+}

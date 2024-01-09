@@ -1,0 +1,4 @@
+roll_or_die: function boolean (flag: boolean) inherit main {
+    if (random > 3) return true;
+    else return false;
+}

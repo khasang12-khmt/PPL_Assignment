@@ -1,0 +1,16 @@
+dsfhfdslfds: integer = false;
+fsdffsdsdf: float = fdsfdsfds;
+sfw, sdfhsdfo, dsfodsfhw: string = {1,2,3,4}, sdhfowe, "sfsdhow";
+fhslfdsf: function array [1,1,1,1,1,1,1,1,1] of string (inherit out dshfsdldsffd: float) inherit main {
+    return;
+    return;
+    return;
+    return;
+    dfdsfds = fdslfdsf + dsjkfkds;
+    eqwr = fdshlfw[0,1,fdsfdsfds] + fdslfdldfsjlfd;
+}
+fsdhdfsdf, sdfwe, fwewro: integer = 432, 324432, "adsfsfad";
+dfsfsd: function string () {
+    sdfdsfds[1,2,2+3,(223+22+dsafr)] = dfshfdsl + fdshlfdsf[0,1,{2.4}];
+    call(dsfhfdsldsf,rewro,"123213");
+}

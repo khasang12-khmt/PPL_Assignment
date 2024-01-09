@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(is_pass, VoidType, [Param(grade, FloatType)], None, BlockStmt([IfStmt(BinExpr(>=, Id(grade), FloatLit(5.0)), CallStmt(print, StringLit(Is passed)), CallStmt(print, StringLit(You still pass, but pass away)))]))
+])

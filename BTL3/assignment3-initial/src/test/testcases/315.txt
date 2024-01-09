@@ -1,0 +1,1 @@
+tft_rate: function float(win_per: float, champ_list: array [9] of string, name: string) inherit Riot {}

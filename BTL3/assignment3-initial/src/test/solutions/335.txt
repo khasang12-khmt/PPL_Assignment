@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(nenkiembokhong, StringType, [], None, BlockStmt([IfStmt(BinExpr(>=, FuncCall(random, [Id(seed)]), FloatLit(0.5)), ReturnStmt(StringLit(nen)), BlockStmt([CallStmt(print, StringLit(Random lai di)), ReturnStmt(StringLit(khong))]))]))
+])

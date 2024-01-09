@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(f, IntegerType, [InheritOutParam(a, IntegerType)], main, BlockStmt([]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(roll_or_die, BooleanType, [Param(flag, BooleanType)], main, BlockStmt([IfStmt(BinExpr(>, Id(random), IntegerLit(3)), ReturnStmt(BooleanLit(True)), ReturnStmt(BooleanLit(False)))]))
+])

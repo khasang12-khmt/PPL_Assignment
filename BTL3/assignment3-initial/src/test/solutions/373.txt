@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(x), BinExpr(+, Id(x), IntegerLit(1))), AssignStmt(Id(y), BinExpr(+, Id(y), IntegerLit(1))), AssignStmt(Id(z), BinExpr(+, Id(z), IntegerLit(1))), VarDecl(a, StringType, StringLit(How)), VarDecl(b, StringType, StringLit(are)), VarDecl(c, StringType, StringLit(you)), IfStmt(BinExpr(==, Id(x), Id(y)), BlockStmt([AssignStmt(Id(a), Id(b)), AssignStmt(Id(b), Id(c))]), IfStmt(BinExpr(==, Id(y), Id(z)), BlockStmt([AssignStmt(Id(b), Id(c)), AssignStmt(Id(c), Id(a))]), BlockStmt([AssignStmt(Id(c), Id(a)), AssignStmt(Id(a), Id(b))]))), CallStmt(concat, Id(a), Id(b), Id(c))]))
+])

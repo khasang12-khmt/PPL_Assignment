@@ -1,0 +1,19 @@
+main: function void() {
+    x = x + 1;
+    y = y + 1;
+    z = z + 1;
+    a, b, c: string = "How", "are", "you";
+    if (x == y) {
+        a = b;
+        b = c;
+    }
+    else if (y == z) {
+        b = c;
+        c = a;
+    }
+    else {
+        c = a;
+        a = b;
+    }
+    concat(a, b, c);    
+}

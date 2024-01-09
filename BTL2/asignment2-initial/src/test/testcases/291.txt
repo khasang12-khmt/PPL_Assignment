@@ -1,0 +1,7 @@
+
+            main: function void (){
+                while((a>5) && (a<10))/*this is a comment*/{
+                    a = 7.5;
+                }
+            }
+        

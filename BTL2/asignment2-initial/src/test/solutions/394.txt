@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(a), FloatLit(1e+22)), AssignStmt(Id(a), FloatLit(1e-24)), AssignStmt(Id(a), UnExpr(-, FloatLit(1e+22)))]))
+])

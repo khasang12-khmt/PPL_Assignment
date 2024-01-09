@@ -1,0 +1,10 @@
+Program([
+	VarDecl(aaa, BooleanType, ArrayLit([IntegerLit(123213), IntegerLit(213213)]))
+	VarDecl(fdewew, StringType, ArrayLit([IntegerLit(2313), IntegerLit(213123)]))
+	VarDecl(strings, StringType, IntegerLit(123213))
+	VarDecl(aaaa, StringType, IntegerLit(111))
+	VarDecl(aaaaa, StringType, IntegerLit(23112))
+	VarDecl(bbbb, StringType, FloatLit(324234.1321))
+	VarDecl(fdsfsdfsdfds, StringType, IntegerLit(24234))
+	VarDecl(rewwer, StringType, FloatLit(32432432.213321))
+])

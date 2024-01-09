@@ -1,0 +1,6 @@
+main: function void() {
+    math = 10;
+    physics = 9.25;
+    chemistry = 8.25;
+    ovr = math + physics + chemistry;
+}

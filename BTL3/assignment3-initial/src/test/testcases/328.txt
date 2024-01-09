@@ -1,0 +1,3 @@
+main: function void() {
+    result = cal(a,b,c);
+}

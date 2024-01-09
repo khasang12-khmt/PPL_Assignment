@@ -1,0 +1,4 @@
+is_pass: function void(grade: float) {
+    if (grade >= 8.0) print("Excellent");
+    else if (grade >= 5.0) print("Is passed");
+}

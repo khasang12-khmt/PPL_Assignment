@@ -1,0 +1,4 @@
+truonganhngoc: function string(cmt: string) {
+    if (cmt == "Tin chuan chua anh") return "Chuan em nhe";
+    else return "Admin Lan blog ban nay cho anh";
+}

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(math), IntegerLit(10)), AssignStmt(Id(physics), FloatLit(9.25)), AssignStmt(Id(chemistry), FloatLit(8.25)), AssignStmt(Id(ovr), BinExpr(+, BinExpr(+, Id(math), Id(physics)), Id(chemistry)))]))
+])

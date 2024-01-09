@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(tft_rate, FloatType, [Param(win_per, FloatType), Param(champ_list, ArrayType([9], StringType)), Param(name, StringType)], Riot, BlockStmt([]))
+])

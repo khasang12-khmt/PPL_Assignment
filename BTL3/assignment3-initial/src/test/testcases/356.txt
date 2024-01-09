@@ -1,0 +1,8 @@
+main: function void() {
+    while (i < 7) {
+        do {
+            check(count,b,z,t);
+        }
+        while (x + y);
+    }
+}

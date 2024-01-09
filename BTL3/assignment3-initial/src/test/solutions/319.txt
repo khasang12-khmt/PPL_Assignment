@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(roll_at_level_8, BooleanType, [Param(champ, StringType), Param(rate, ArrayType([5], FloatType))], None, BlockStmt([]))
+])

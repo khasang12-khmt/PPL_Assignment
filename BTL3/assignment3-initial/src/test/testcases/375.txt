@@ -1,0 +1,6 @@
+main: function void() {
+    y = (a + z) && (t || y) :: (z / r % iopd);
+    for (j = z, t < n, io / 5) break;
+    foo(123);
+    call(xsdf,ysdadfs,zdsasfd);
+}

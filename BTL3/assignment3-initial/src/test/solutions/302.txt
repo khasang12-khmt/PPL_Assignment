@@ -1,0 +1,3 @@
+Program([
+	VarDecl(str, StringType, StringLit(Ohhh))
+])

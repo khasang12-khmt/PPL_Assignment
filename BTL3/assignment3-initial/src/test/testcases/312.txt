@@ -1,0 +1,1 @@
+f: function integer(inherit out a:integer) inherit main {}

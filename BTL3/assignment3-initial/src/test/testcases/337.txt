@@ -1,0 +1,5 @@
+NicoloZaniolo: function string(quote: string) {
+    if (dribble) return "Chuyen di dung sut";
+    else if (shoot) return "Anh khong nghe toi";
+    else if (no_goal) return "Anh khong an mung";
+}
